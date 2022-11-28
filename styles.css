@@ -1,0 +1,36 @@
+div {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse; /* убрать промежуток между границами*/
+    border: 1px solid grey; /*внешние границы*/
+    width: 100%; /*ширина во весь контейнер*/
+}
+
+caption {
+    font-size: 1.5rem;
+}
+ 
+th {
+    border: 1px solid grey; /* границы ячеек первого ряда таблицы */
+    padding: 10px; /*внутренние отступы*/
+}
+ 
+.tab1 {
+    width: 16.7%;
+}
+
+.tab2 {
+    width: 11.1%;
+}
+
+td {
+    border: 1px solid grey; /* границы ячеек тела таблицы */
+    text-align: center; /*выравнивание текста*/
+    padding: 10px;
+}
+
+tr:nth-child(2n) {
+    background: lightgrey; /*зебра*/
+}
